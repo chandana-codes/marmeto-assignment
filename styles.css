@@ -1,0 +1,149 @@
+.container{
+  display: flex;
+  flex-direction: column;
+  padding: 24px;
+}
+
+.navBar{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+
+}
+
+.icon{
+  border: 1px solid #000;
+}
+
+.searchContainer{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  border: 1px solid #000;
+}
+
+.instagramIcon{
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+}
+
+.fabricHeader{
+  font-weight: 600;
+  font-size: 80px;
+}
+
+.buttonContainer{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+
+@media screen and (max-width: 749px){
+  .topSection{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  .fabricHeader{
+    display: none;
+  }
+
+}
+
+@media screen and (min-width: 750px){
+  .topSection{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+  }
+}
+
+@media screen and (min-width: 950px){
+  .topSection{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+  }
+}
+
+.buttonViewAll{
+  border: 1px solid #000;
+  color: #fff;
+  box-shadow: 6px 6px 0px 0px rgb(254, 106, 58);
+  background: rgb(35, 34, 41);
+  position: relative;
+  width: 165px;
+  height: 68px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 16px;
+  margin: 10px;
+}
+
+.buttonWatchNow{
+  position: relative;
+  width: 165px;
+  height: 68px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 16px;
+  box-sizing: border-box;
+  border: 1px solid rgb(0, 0, 0);
+  background: rgb(255, 251, 247);
+  margin: 10px;
+
+}
+
+@media screen and (max-width: 749px){
+  .bottomSection{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+  }
+
+  .shirtAndHoodieSection{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+  }
+}
+
+@media screen and (min-width: 750px){
+  .bottomSection{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+  }
+
+  .shirtAndHoodieSection{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+  }
+}
+
+@media screen and (min-width: 950px){
+  .bottomSection{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+  }
+
+  .shirtAndHoodieSection{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+}
+
+.bottomContent{
+  align-self: center;
+  padding: 62px;
+}
